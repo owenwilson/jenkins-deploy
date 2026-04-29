@@ -70,3 +70,7 @@ ssh-keygen -t ed25519 -C "yourMachineName@email.com"
 - docker compose specification [deploy with docker swarm](https://docs.docker.com/compose/compose-file/05-services/#deploy)
 
 - docker [compose file legacy](https://docs.docker.com/compose/compose-file/05-services/#deploy)
+
+- install [ssh agent plugin](https://plugins.jenkins.io/ssh-agent/)
+
+- install [sonarqube scanner](https://plugins.jenkins.io/sonar/)
