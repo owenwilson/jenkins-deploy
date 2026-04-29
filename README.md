@@ -50,3 +50,9 @@ free -h
 ```sh
 docker compose down -v
 ```
+
+### references
+
+- docker compose specification [deploy with docker swarm](https://docs.docker.com/compose/compose-file/05-services/#deploy)
+
+- docker [compose file legacy](https://docs.docker.com/compose/compose-file/05-services/#deploy)
