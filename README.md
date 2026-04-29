@@ -51,6 +51,20 @@ free -h
 docker compose down -v
 ```
 
+### ssh config jenkins
+
+- create ssh standard
+
+```sh
+ssh-keygen -t ed25519 -C "yourMachineName@email.com"
+```
+
+- Jenkins Setup: Navigate to Manage Jenkins > Credentials > System > Global credentials > Add Credentials.
+- Kind: Choose "SSH Username with private key."
+- ID: Enter a unique name (e.g., github-ssh-key).
+- Username: Enter git.
+- Private Key: Select "Enter directly" and paste the entire content of your private key file.
+
 ### references
 
 - docker compose specification [deploy with docker swarm](https://docs.docker.com/compose/compose-file/05-services/#deploy)
